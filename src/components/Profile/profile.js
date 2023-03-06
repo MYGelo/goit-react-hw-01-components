@@ -42,7 +42,8 @@ export function Profile({
     tag: propTypes.string.isRequired,
     location: propTypes.string.isRequired,
     avatar:  propTypes.string.isRequired,
-    
+  }
+
     // stats: propTypes.objectOf(
     //   propTypes.shape({
     //     followers: propTypes.number.isRequired,
@@ -50,4 +51,3 @@ export function Profile({
     //     likes: propTypes.number.isRequired,
     //   })
     // ).isRequired
-  }
