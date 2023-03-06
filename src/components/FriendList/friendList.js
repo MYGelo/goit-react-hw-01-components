@@ -1,4 +1,5 @@
 import css from './friendList.module.css';
+import propTypes from 'prop-types';
 
 export function FriendList ({
     friends,
