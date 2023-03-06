@@ -1,0 +1,65 @@
+.name {
+    color: blueviolet;
+}
+.friends{
+    display: flex;
+    flex-direction: column;
+    
+    flex-wrap: wrap;
+    
+    align-items: center;
+    justify-content: space-evenly;
+    
+    padding: 0;
+
+    /* background-color: rgb(204, 204, 204); */
+}
+
+.item {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+   
+
+    
+    width: 335px;
+    height: 75px;
+    padding: 0;
+    margin: 10px;
+    
+    border-radius: 5px;
+
+
+    background-color: azure;
+    box-shadow: 3px 3px 5px 5px grey;
+}
+.avatar {
+    width: 48px;
+    height: 48px;
+
+    margin-left: 10px;
+
+}
+
+/* .status {
+    margin-left: 10px;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: orange;
+} */
+.isOnline{
+    background-color: green;
+    margin-left: 10px;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+.isOffline{
+    background-color: red;
+    margin-left: 10px;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
