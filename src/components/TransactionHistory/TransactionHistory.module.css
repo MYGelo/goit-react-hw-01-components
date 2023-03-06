@@ -1,0 +1,35 @@
+.transaction{
+    box-shadow: 3px 3px 5px 5px grey;
+   
+
+     margin: 12px;
+     padding: 0;
+}
+.transaction__title {
+width: 333px;
+}
+
+.transaction__head {
+    background-color: rgb(0, 175, 175);
+    color: white;
+    height: 45px;
+    
+}
+.tr:nth-child(2n+1) {
+    background-color: rgb(223, 223, 223);
+    
+}
+
+.td{
+    
+    text-align: -webkit-center;
+
+}
+.td1{
+    margin-left:  25px;
+}
+
+.transaction__body {
+    border: 1px solid red;
+}
+

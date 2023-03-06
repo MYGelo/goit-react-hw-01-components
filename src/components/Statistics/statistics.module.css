@@ -4,6 +4,8 @@
     border-radius: 5px;
 
     background-color: azure;
+
+    width: 335px;
 }
 .stats {
     display: flex;
@@ -23,9 +25,6 @@
 
     /* background-color: rgb(204, 204, 204); */
 
-    
-    
-    
 }
 
 .item {

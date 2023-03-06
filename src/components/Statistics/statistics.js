@@ -1,6 +1,6 @@
 import css from './statistics.module.css';
 import { getRandomColor } from '../getRandomColor';
-console.log(getRandomColor);
+
 
 export function Statistics ({
     stats,

@@ -8,6 +8,10 @@ import { Statistics } from './Statistics/statistics';
 
 import friends from 'data/friends.json';
 import {FriendList} from './FriendList/friendList';
+
+import transactions from 'data/transactions.json';
+import { TransactionHistory } from './TransactionHistory/TransactionHistory';
+
  
 
 
@@ -33,6 +37,10 @@ export const App = () => {
 
       <section name="friendList">
       <FriendList friends={friends} />
+      </section>
+
+      <section name="transactions">
+      <TransactionHistory items={transactions} />
       </section>
 
       </>
