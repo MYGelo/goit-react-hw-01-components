@@ -1,6 +1,6 @@
 import css from './statistics.module.css';
 import { getRandomColor } from '../getRandomColor';
-
+import propTypes from 'prop-types';
 
 export function Statistics ({
     stats,
@@ -31,3 +31,12 @@ export function Statistics ({
     );
 }
 
+Statistics.prototypes = {
+  stats: propTypes.arrayOf(
+    propTypes.shape({
+      id: propTypes.string.isRequired,
+      label: propTypes.string.isRequired,
+      percentage: propTypes.number.isRequired,
+    })
+  ).isRequired
+}
