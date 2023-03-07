@@ -30,10 +30,8 @@ export const App = () => {
       </section>
 
       <section name="statistics">
-        
-      
-      <Statistics stats={data} />
-        
+        <Statistics  stats={data} title="Upload stats" />
+
       </section>
 
       <section name="friendList">

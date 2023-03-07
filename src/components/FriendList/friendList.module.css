@@ -42,24 +42,15 @@
 
 }
 
-/* .status {
-    margin-left: 10px;
-    width: 20px;
-    height: 20px;
-    border-radius: 50%;
-    background-color: orange;
-} */
-.isOnline{
-    background-color: green;
-    margin-left: 10px;
-    width: 20px;
-    height: 20px;
-    border-radius: 50%;
-}
-.isOffline{
+.status__offline {
     background-color: red;
     margin-left: 10px;
     width: 20px;
     height: 20px;
     border-radius: 50%;
+}
+
+
+.is-online {
+    background-color: green;
 }

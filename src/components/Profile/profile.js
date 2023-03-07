@@ -7,7 +7,6 @@ export function Profile({
     location, 
     avatar = 'https://cdn-icons-png.flaticon.com/512/1077/1077012.png',
     stats}) {
-      console.log(stats);
     return (
     <>
       <div className={css.description}>
@@ -43,11 +42,3 @@ export function Profile({
     location: propTypes.string.isRequired,
     avatar:  propTypes.string.isRequired,
   }
-
-    // stats: propTypes.objectOf(
-    //   propTypes.shape({
-    //     followers: propTypes.number.isRequired,
-    //     views: propTypes.number.isRequired,
-    //     likes: propTypes.number.isRequired,
-    //   })
-    // ).isRequired
