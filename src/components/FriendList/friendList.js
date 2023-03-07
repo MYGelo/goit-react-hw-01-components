@@ -2,15 +2,15 @@ import css from './friendList.module.css';
 import propTypes from 'prop-types';
 import { FriendListItem } from './friendListItem';
 
-export function FriendList ({
-    friends,
-}) {
+export function FriendList (props) {
+    const {friends} = props;
     return (
         <>
        <ul className={css.friends}>
         {  friends.map(({id, avatar, name, isOnline }) => {
             return ( 
                     <FriendListItem 
+                    key = {id}
                     name = {name}
                     avatar = {avatar}
                     isOnline = {isOnline}>
